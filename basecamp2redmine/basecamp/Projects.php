@@ -2,6 +2,7 @@
 namespace basecamp2redmine\basecamp;
 
 use basecamp2redmine\abstracts\AbstractProjects;
+use basecamp2redmine\exceptions\ApiException;
 
 /**
  * Class Projects
@@ -38,6 +39,7 @@ class Projects extends AbstractProjects {
     }
 
     /**
+     * @throws ApiException
      * @return $this
      */
     public function create()

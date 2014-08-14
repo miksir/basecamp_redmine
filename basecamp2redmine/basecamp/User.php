@@ -3,6 +3,14 @@ namespace basecamp2redmine\basecamp;
 
 use basecamp2redmine\abstracts\AbstractUser;
 
+/**
+ * Class User
+ * @package basecamp2redmine\basecamp
+ * @property string $id
+ * @property string $name
+ * @property string $email_address
+ *
+ */
 class User extends AbstractUser {
 
     /**
